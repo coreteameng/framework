@@ -1,3 +1,5 @@
+# Heyman Tech Web Automation Test Framework Beta 1.0.0
+
 * Java 11.0.4 JDK
 * Gradle Project
 * Selenium QA
