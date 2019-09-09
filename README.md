@@ -3,9 +3,10 @@
 * Selenium QA
 * Cucumber
 
-1 - Project has 2 common helpers 
-      * BrowserHelper
-      * ControlHelper
+* Project has 2 common helpers 
+  * BrowserHelper
+  * ControlHelper
+  
 
 Example Standart Notations For Cucumber Scenarios
 
