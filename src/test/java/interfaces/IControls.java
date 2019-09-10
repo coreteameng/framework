@@ -2,6 +2,8 @@ package interfaces;
 
 public interface IControls {
 
+    void openURL(String url) throws Exception;
+
     public void clickButtonById(String id) throws Exception;
 
     public String getTextById(String id) throws Exception;

@@ -1,20 +1,21 @@
 package runner;
 
 
+import io.cucumber.core.api.Scenario;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
+import java.util.Map;
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/features"},
-        glue = {"driver", "com.heyman.web.steps", "runner"},
+        features = {"src/test/resources/featureFiles"},
+        glue = {"driver", "step", "runner"},
         tags = {"~@ignore"},
-        plugin = {"json:target/RunCuke/cucumber.json",
-                "pretty", "html:target/RunCuke/cucumber.html",
-                "com.cucumber.listener.ExtentCucumberFormatter"})
-
+        plugin = {"pretty"})
 public class TestRunner {
 
-
+    public static Map<String, String> config;
+    public static Scenario scenario;
 }
