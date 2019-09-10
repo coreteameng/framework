@@ -1,17 +1,22 @@
 package helpers;
 
 import interfaces.IControls;
+import interfaces.IFunction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class ControlHelper implements IControls {
+import java.util.Properties;
+
+public class ControlHelper implements IControls, IFunction {
 
     WebDriver driver;
+    Properties properties;
 
     public ControlHelper(WebDriver driver) {
         this.driver = driver;
+        this.properties = new Properties();
     }
 
     @Override
@@ -62,5 +67,21 @@ public class ControlHelper implements IControls {
     public void changeCheckStatusById(String id) throws Exception {
         WebElement option = driver.findElement(By.id(id));
         option.click();
+    }
+
+    @Override
+    public boolean checkPasswordFormatById(String id) throws Exception {
+        String pattern = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}";
+        String pass = driver.findElement(By.id(id)).getText();
+        Boolean result = pass.matches(pattern);
+        return result;
+    }
+
+    @Override
+    public boolean checkEmailFormatById(String id) throws Exception {
+        String pattern = "^(.+)@(.+)$";
+        String pass = driver.findElement(By.id(id)).getText();
+        Boolean result = pass.matches(pattern);
+        return result;
     }
 }
