@@ -5,11 +5,13 @@
 * Selenium QA
 * Cucumber
 
-* Project has 2 common helpers 
+* Project helpers 
+
   * BrowserHelper
   * ControlHelper
+  * DriverHelper
+  * PropertyHelper
   
-
 Example Standart Notations For Cucumber Scenarios
 
 * Feature: Heyman Test
