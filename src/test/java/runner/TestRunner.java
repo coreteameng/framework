@@ -11,8 +11,7 @@ import java.util.Map;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/resources/featureFiles"},
-        glue = {"driver", "step", "runner"},
-        tags = {"~@ignore"},
+        glue = {"steps"},
         plugin = {"pretty"})
 public class TestRunner {
 

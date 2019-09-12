@@ -10,8 +10,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class ControlHelper implements IControls, IFunction {
+import java.io.IOException;
+
+public  class ControlHelper implements IControls, IFunction {
     WebDriver webDriver = DriverHelper.getCurrentDriver();
+    public ControlHelper() throws IOException {
+    }
 
     public Capabilities getBrowserCapabilities() throws Exception {
         Capabilities cap = ((RemoteWebDriver) webDriver).getCapabilities();
@@ -75,7 +79,7 @@ public class ControlHelper implements IControls, IFunction {
 
     @Override
     public boolean checkPasswordFormatById(String id) throws Exception {
-        String pattern = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}";
+        String pattern = PropertyHelper.getPasswordFormat();
         String pass = webDriver.findElement(By.id(id)).getText();
         Boolean result = pass.matches(pattern);
         return result;
@@ -83,7 +87,7 @@ public class ControlHelper implements IControls, IFunction {
 
     @Override
     public boolean checkEmailFormatById(String id) throws Exception {
-        String pattern = "^(.+)@(.+)$";
+        String pattern = PropertyHelper.getEmailFormat();
         String pass = webDriver.findElement(By.id(id)).getText();
         Boolean result = pass.matches(pattern);
         return result;

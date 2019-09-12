@@ -2,30 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f08ba5-c7a8-4280-aa93-cc2263e9d97f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/StreamModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/OSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/PropertyHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/ChromeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/ConfigModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/EdgeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/FirefoxModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/IExploreModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/OperaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/SafariModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/enums/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/enums/Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/helpers/BrowserHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/helpers/BrowserHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/helpers/ControlHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/helpers/ControlHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/interfaces/IControls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/interfaces/IControls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/runner/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/steps/example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/steps/example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/features/example.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/example.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/enums/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/enums/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/BrowserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/BrowserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/com.heyman.web.framework.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/app/app.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/META-INF/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/META-INF/com.heyman.web.framework.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/META-INF/framework.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/enums/Browser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/enums/Platform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/helpers/BrowserHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/helpers/ControlHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/helpers/DriverHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/helpers/DriverHelper$BrowserCleanup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/helpers/DriverHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/interfaces/IControls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/interfaces/IDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/interfaces/IFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/runner/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/steps/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/steps/example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/example.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/second.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/enums/Platform.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/helpers/ControlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/ControlHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/interfaces/IControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interfaces/IControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/example.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/example.feature" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,100 +75,6 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/example.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/example.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/ControlHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3270#3271#0" expanded="true" />
-                <element signature="e#3319#3320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IControls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/BrowserHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -155,135 +89,15 @@
     <findStrings>
       <find>Properties</find>
       <find>propertiesCo</find>
+      <find>WIN64 not found</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/app/app.java" />
-        <option value="$PROJECT_DIR$/src/main/java/runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/runner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/dependencies.gradle" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/enums/Platform.java" />
-        <option value="$PROJECT_DIR$/src/test/java/enums/test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/interfaces/IDriver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/interfaces/IControls.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/ex.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/ex.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/second.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/helpers/FunctionHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/interfaces/IFunction.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/example.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/enums/Browser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/helpers/BrowserHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/helpers/ControlHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/example.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/Hooks.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3235" />
-    <option name="height" value="1835" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1QjGFT19UcqADp1FJBnKsVD3jV9" />
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568135376834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568230143794" />
     <property name="dynamic.classpath" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web-automation-test-framework/web-automation-test-framework" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -295,6 +109,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\HEYMAN-AI\framework\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,16 +127,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Cucumber java.Scenario: Heyman Ex">
-    <configuration name="Feature: ex" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ex.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="framework.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: ex" />
+    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.app" />
+      <module name="framework.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,15 +140,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Ex" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: example" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ex.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/example.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="framework.test" />
-      <option name="NAME_FILTER" value="^Ex$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Ex$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Ex" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -355,25 +167,6 @@
       <option name="NAME_FILTER" value="^Ex$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Ex$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Ex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Example Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ex.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="framework.test" />
-      <option name="NAME_FILTER" value="^Example Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Example Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Example Scenario" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -393,25 +186,6 @@
       <option name="NAME_FILTER" value="^Heyman Ex$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Heyman Ex$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Heyman Ex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Login Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="framework.test" />
-      <option name="NAME_FILTER" value="^Login Test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Login Test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login Test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -544,22 +318,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: Example Scenario" />
-      <item itemvalue="Cucumber java.Scenario: Login Test" />
+      <item itemvalue="Application.app" />
       <item itemvalue="Cucumber java.Scenario: Ex" />
-      <item itemvalue="Cucumber java.Feature: ex" />
+      <item itemvalue="Cucumber java.Scenario: Login Test" />
       <item itemvalue="Cucumber java.Scenario: Heyman Ex" />
       <item itemvalue="Cucumber java.Scenario: Second Ex" />
+      <item itemvalue="Cucumber java.Feature: example" />
       <item itemvalue="Gradle.Plugin" />
       <item itemvalue="Gradle.framework (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Scenario: Heyman Ex" />
+        <item itemvalue="Cucumber java.Feature: example" />
+        <item itemvalue="Application.app" />
+        <item itemvalue="Gradle.framework (1)" />
         <item itemvalue="Cucumber java.Scenario: Second Ex" />
-        <item itemvalue="Cucumber java.Scenario: Ex" />
-        <item itemvalue="Cucumber java.Scenario: Ex" />
-        <item itemvalue="Cucumber java.Feature: ex" />
       </list>
     </recent_temporary>
   </component>
@@ -576,278 +350,16 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 04m 16s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 05m 37s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 06m 17s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 08m 30s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 11m 04s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 14m 36s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 17m 41s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 24m 29s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 27m 14s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Heyman_Ex - 2019.09.10 at 17h 33m 07s.xml">
-      <configuration name="Scenario: Heyman Ex" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2700081" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.24156305" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6205674" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4987874" weight="0.21492007" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502021" side_tool="true" weight="0.27886322" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.16666667" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/runner.java" />
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/runner.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/app.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/steps/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/test.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/enums/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ex.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ex.java" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/FunctionHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/second.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-          <folding>
-            <element signature="e#4639#4640#0" expanded="true" />
-            <element signature="e#4718#4719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/enums/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/enums/Platform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/IControls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.bonigarcia/webdrivermanager/3.0.0/eb4e5f4bdc2d20c933b5734eebef4fd258db2408/webdrivermanager-3.0.0-sources.jar!/io/github/bonigarcia/wdm/EdgeDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.bonigarcia/webdrivermanager/3.0.0/eb4e5f4bdc2d20c933b5734eebef4fd258db2408/webdrivermanager-3.0.0-sources.jar!/io/github/bonigarcia/wdm/WebDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/BrowserHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/ControlHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/example.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3270#3271#0" expanded="true" />
-            <element signature="e#3319#3320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

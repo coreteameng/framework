@@ -30,6 +30,7 @@ ext {
             selenium            : "3.141.59",
             cucumber            : "4.7.2",
             slf4j               : "1.7.2",
+            webDriverManager    : "3.2.0",
     ]
     libs = [
             springBootWeb        : "org.springframework.boot:spring-boot-starter-web:$versions.springBoot",
@@ -87,5 +88,6 @@ ext {
             cucumberJava         : "io.cucumber:cucumber-java:$versions.cucumber",
             cucumberJunit        : "io.cucumber:cucumber-junit:$versions.cucumber",
             slf4j                : "org.slf4j:slf4j-api:$versions.slf4j",
+            webDriverManager     : "io.github.bonigarcia:webdrivermanager:$versions.webDriverManager",
     ]
 }
